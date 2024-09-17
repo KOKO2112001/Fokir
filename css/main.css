@@ -1,0 +1,708 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  margin: 0;
+}
+.contaianr {
+  width: 80%;
+  margin:auto;
+}
+.clr {
+  clear: both;
+}
+.ht h2 {
+  text-align: center;
+  height: auto;
+}
+.ht .one {
+  margin-left: 535px;
+  background-color: #ff305b;
+  width: 100px;
+  height: 1px;
+}
+.ht .two {
+  margin-top: 3px;
+  margin-left: 480px;
+  background-color: #ff305b;
+  width: 200px;
+  height: 1px;
+}
+.ht .tre {
+  margin-top: 3px;
+  margin-left: 535px;
+  background-color: #ff305b;
+  width: 100px;
+  height: 1px;
+}
+.home {
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-image: url(../img/1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 10%;
+}
+.home::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+}
+.nav ul {
+  margin-left: 55%;
+}
+.home .nav {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding-top: 10px;
+  display: inline-block;
+}
+.home li {
+  padding-left: 10px;
+  margin-left: 1px;
+  width: 100%;
+  display: inline;
+  list-style-type: none;
+}
+.nav a {
+  font-size: x-large;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 2px;
+  font-family: "Roboto";
+  line-height: 20px;
+  font-size: 16px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  margin: 0px;
+  font-weight: 600;
+  font-style: normal;
+  font-variant: normal;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-stretch: 100%;
+  font-variation-settings: normal;
+  font-feature-settings: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(85, 85, 85);
+  text-align: left;
+  text-indent: 0px;
+}
+.nav a:hover {
+  color: #ff305b;
+  cursor: pointer;
+}
+.home .logo {
+  color: #ff305b;
+  cursor: pointer;
+  float: left;
+  width: 30%;
+}
+.home .text {
+  top: 0;
+  right: 0;
+  z-index: 1;
+  position: absolute;
+  line-height: 10px;
+  margin-top: 20%;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.home .text h3 {
+  font-family: "Source Sans Pro";
+  font-size: 24px;
+  font-weight: 600;
+}
+.home .text h1 {
+  line-height: 77px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro";
+  font-size: 70px;
+  color: #ff305b;
+}
+.home .text h4 {
+  text-align: center;
+  margin-right: 50px;
+  line-height: 31.2px;
+  font-family: "Source Sans Pro";
+  font-size: 26px;
+  font-weight: 300;
+  text-transform: capitalize;
+  position: relative;
+}
+.home .text h4::after {
+  position: absolute;
+  left: 806;
+  top: -2;
+  color: white;
+  content: "|";
+  animation: move 5s 1s ease-in-out infinite;
+}
+.Hello {
+  margin-top: 60%;
+  display: inline-block;
+  width: 99%;
+  font-family: "Roboto";
+  background-color: white;
+}
+.box {
+  position: relative;
+  width: 30%;
+  height: 59vh;
+  border: 10px solid #555;
+}
+.border-box {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 100%;
+  height: 57vh;
+  overflow: hidden;
+}
+.border-box img {
+  position: absolute;
+  width: 100%;
+}
+.border-box .icon i {
+  width: 1px;
+}
+.border-box .icon i:hover {
+  color: #ff305b;
+}
+.border-box .icon {
+  background-color: #2e2e2e;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  opacity: 0.5;
+  transition: all 1s;
+}
+.border-box .icon i {
+  margin-left: 50px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 220px 3px;
+}
+.border-box:hover .icon {
+  top: 0;
+}
+.Hello .text {
+  top: 900;
+  left: 580;
+  position: absolute;
+  width: 60%;
+  line-height: 1;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+  float: right;
+  color: #555;
+}
+.Hello .text h2 {
+  line-height: 7px;
+  color: black;
+  font-size: 50px;
+  font-weight: 500;
+}
+.Hello .oo h2 {
+  padding-top: 12px;
+  padding-left: 10px;
+  text-align: left;
+}
+.Hello .oo {
+  margin-left: 1px;
+  background-color: #ff305b;
+  width: 5px;
+  height: 30px;
+}
+.Hello .text table {
+  font-weight: 400;
+  line-height: 20px;
+  color: #333;
+  width: 75%;
+  line-height: 30px;
+}
+.Hello .text td {
+  padding: 0px 0px;
+  color: #555;
+  font-size: 20px;
+  font-weight: 200;
+}
+.Hello .text span {
+  line-height: 7px;
+  color: black;
+  font-size: 25px;
+  font-weight: 400;
+}
+.Hello .but {
+  background-color: #f1f1f1;
+}
+.Hello a {
+  margin: 10 5;
+  background: #ff305b none repeat scroll 0 0;
+  border-radius: 4px;
+  color: #ffffff;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  transition: all 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+  width: 21%;
+}
+.Hello a:hover {
+  background-color: red;
+}
+.Services {
+  margin-top: 15%;
+  width: 100%;
+  display: inline-block;
+  background-color: #f1f1f1;
+}
+.ii {
+  text-align: center;
+  padding: 30px 20px;
+  width: 100%;
+  height: 45vh;
+  color: #555;
+}
+.ii .item1 {
+  height: 35vh;
+  width: 25%;
+  float: left;
+  border-radius: 3px;
+  transition: all 0.5s ease-in-out;
+  background-color: #f1f1f1;
+  padding-top: 35px;
+}
+.ii .item1 h3 {
+  color: #000000;
+}
+.ii .item1 i {
+  font-size: 40px;
+  color: #ff305b;
+}
+.ii .item1:hover {
+  transform: scaleY(1);
+  background-color: #ffffff;
+}
+.Portfolio {
+  margin: 5% auto;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.ip {
+  text-align: center;
+  padding: 0px 20px;
+}
+.p-1 {
+  overflow: hidden;
+  position: relative;
+  height: 40vh;
+  width: 33%;
+  float: left;
+  border-radius: 3px;
+  transition: all 0.5s ease-in-out;
+  padding-top: 35px;
+}
+.p-1 img {
+  padding: 10px 10px;
+  width: 100%;
+}
+.p-1 .kk {
+  transition: all 0.8s ease-in-out;
+  background-color: rgba(51, 51, 51, 0.637);
+  width: 95%;
+  height: 94%;
+  position: absolute;
+  top: 290;
+  left: 10;
+}
+.p-1:hover .kk {
+  top: 46;
+}
+.Portfolio .items ul {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.Portfolio .items ul li {
+  padding: 15px;
+  padding-top: 10px;
+  display: inline;
+  text-decoration: none;
+}
+.Portfolio .items button {
+  padding-top: 5%;
+  color: #555;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: x-large;
+  font-family: "Roboto";
+  font-size: 16px;
+  vertical-align: baseline;
+  font-weight: 600;
+  border: none;
+}
+.Portfolio .items button:hover {
+  color: #ff305b;
+  cursor: pointer;
+}
+.Services .items_icon1 img {
+  padding-bottom: 10px;
+  margin-top: 15%;
+  padding-left: 65px;
+}
+.Services .items_icon1 ul {
+  width: 25%;
+  list-style: none;
+  float: left;
+  padding-left: 30px;
+}
+.Services .items_icon1 li h3 {
+  font-family: "Helvetica";
+  font-size: 20px;
+  text-align: left;
+  padding-left: 70px;
+  width: 20%;
+  display: inline;
+}
+.Services .items_icon1 li p {
+  font-family: "Roboto";
+  margin-top: 500px;
+  color: #555;
+  text-align: left;
+  padding-left: 50px;
+  width: 20%;
+  display: inline;
+}
+.Feedback{
+  margin: 5% auto;
+}
+.f-border{
+  overflow: hidden;
+  margin: 50px auto;
+  padding: 80px;
+  position: relative;
+  width: 80%;
+  height: 45vh;
+  background-color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+}
+.layer{
+  position: absolute;
+  top: -250;
+  left: -250;
+  width: 400px;
+  height: 600px;
+  transform: rotate(45deg);
+  background-color:#ff305b;
+}
+.Feedback .imag{
+  width: 20%;
+  float: left;
+}
+.imag img{
+  z-index: 9999999999;
+  position: relative;
+  width: 90%;
+  border-radius: 50%;
+}
+.Feedback .contanet{
+  margin-top: -30px;
+  float: right;
+  width: 80%;
+}
+.contanet h3{
+  font-family: "Helvetica";
+  font-size: 26px;
+  color: #000000;
+}
+.contanet h5{
+  margin-top: -10px;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  color: #959595;
+}
+.contanet p{
+  margin-top: -20px;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #555;
+}
+.contanet h6{
+  cursor: pointer;
+  margin-top: -2px;
+  font-size: 16px;
+}
+.Blog {
+  margin-top: 15%;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.Blog .ht-b {
+  padding-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.Blog .items {
+  width: 99%;
+  height: 75vh;
+  display: inline-block;
+  background-color: transparent;
+}
+.Blog .itm-1 {
+  margin: 15px;
+  float: left;
+  width: 30%;
+  background-color: white;
+}
+.Blog .itm-1 img {
+  width: 100%;
+  padding-bottom: 10px;
+}
+.Blog .itm-1 p {
+  width: 100%;
+  font-family: "Roboto ", "sans-serif";
+  font-size: 16px;
+  line-height: 25px;
+  padding-left: 5%;
+  color: #555;
+}
+.Blog .itm-1 h3 {
+  width: 100%;
+  padding-left: 5%;
+  color: black;
+  font-family: "Source Sans Pro", "sans-serif";
+  font-size: 24px;
+  line-height: 26.4px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.Blog .itm-1 h3:hover {
+  color: #ff305b;
+}
+.Blog .itm-1 button {
+  border: none;
+  background-color: transparent;
+  color: #555;
+  font-family: "Roboto ", "sans-serif";
+  font-size: 16px;
+  line-height: 25px;
+  cursor: pointer;
+  padding-left: 5%;
+  padding-bottom: 2%;
+}
+.Blog .itm-1 button:hover {
+  color: #ff305b;
+}
+.Contact {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  background-color: #ffffff;
+}
+.Contact .ht-b {
+  padding-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.Contact .inputs {
+  width: 100%;
+  display: inline-block;
+}
+.Contact .inp-1 input {
+  float: left;
+  margin-left: 20%;
+  height: 6vh;
+  width: 30%;
+}
+.Contact .inp-2 input {
+  float: left;
+  margin-left: 5%;
+  height: 6vh;
+  width: 30%;
+}
+.Contact .inp-3 input {
+  float: left;
+  margin-top: 3%;
+  margin-left: 20%;
+  height: 6vh;
+  width: 65%;
+}
+.Contact .inp-4 textarea {
+  float: left;
+  margin-top: 3%;
+  margin-left: 20%;
+  height: 11vh;
+  border-radius: 5px;
+  width: 65%;
+}
+.Contact .inputs button {
+  float: left;
+  margin-top: 3%;
+  margin-left: 20%;
+  border-radius: 5px;
+  border: none;
+  height: 5vh;
+  width: 11%;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #ff305b;
+}
+.Contact .inputs button:hover {
+  background-color: red;
+}
+.footer {
+  position: relative;
+  top: 10;
+  left: -10;
+  background-color: #333333;
+  width: 101%;
+  height: 30vh;
+  margin: 10px 0px;
+}
+.footer .f-text {
+  text-align: center;
+  width: 99%;
+  padding-top: 7%;
+}
+.footer .f-text i {
+  padding: 20px 10px;
+  padding-bottom: 30px;
+  color: #ffffff;
+}
+.footer .f-text i:hover {
+  color: #ff305b;
+}
+.footer p {
+  display: inline;
+  color: #ffffff;
+  width: 100%;
+}
+.footer #imp {
+  color: #ff305b;
+  cursor: pointer;
+}
+.footer #imp:hover {
+  text-decoration: underline;
+}
+@keyframes move {
+  0% {
+    left: 806;
+    top: -2;
+    transition-delay: 1s;
+    content: "|";
+  }
+  5% {
+    left: 806;
+    top: -2;
+    content: "D|";
+  }
+  10% {
+    left: 806;
+    top: -2;
+    content: "De|";
+  }
+  15% {
+    left: 806;
+    top: -2;
+    content: "Des|";
+  }
+  20% {
+    left: 806;
+    top: -2;
+    content: "Desi|";
+  }
+  25% {
+    left: 806;
+    top: -2;
+    content: "Desig|";
+  }
+  30% {
+    left: 806;
+    top: -2;
+    content: "Design|";
+  }
+  35% {
+    left: 806;
+    top: -2;
+    content: "Designe| ";
+  }
+  40% {
+    left: 806;
+    top: -2;
+    content: "Designer |";
+  }
+  45% {
+    left: 806;
+    top: -2;
+    transition-delay: 1s;
+    content: "|";
+  }
+  50% {
+    left: 806;
+    top: -2;
+    content: "D |";
+  }
+  55% {
+    left: 806;
+    top: -2;
+    content: "De |";
+  }
+  60% {
+    left: 806;
+    top: -2;
+    content: "Dev |";
+  }
+  65% {
+    left: 806;
+    top: -2;
+    content: "Deve |";
+  }
+  70% {
+    left: 806;
+    top: -2;
+    content: "Devel |";
+  }
+  75% {
+    left: 806;
+    top: -2;
+    content: "Develo |";
+  }
+  80% {
+    left: 806;
+    top: -2;
+    content: "Develop |";
+  }
+  85% {
+    left: 806;
+    top: -2;
+    content: "Develope |";
+  }
+  90% {
+    left: 806;
+    top: -2;
+    content: "Developer |";
+  }
+  95% {
+    left: 806;
+    top: -2;
+    transition-delay: 1s;
+    content: "|";
+  }
+}
